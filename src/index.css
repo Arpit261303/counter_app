@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.counter-label {
+  flex-grow: 1;
+}
+
+.counter-value {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.counter-actions button {
+  margin-right: 5px;
+}
